@@ -1,0 +1,1 @@
+import{h as t}from"./has-bigints.7b7df0bd.js";var o={exports:{}};if(t()){var e=BigInt.prototype.valueOf;o.exports=function(t){return null!=t&&"boolean"!=typeof t&&"string"!=typeof t&&"number"!=typeof t&&"symbol"!=typeof t&&"function"!=typeof t&&("bigint"==typeof t||function(t){try{return e.call(t),!0}catch(o){}return!1}(t))}}else o.exports=function(t){return!1};export{o as i};

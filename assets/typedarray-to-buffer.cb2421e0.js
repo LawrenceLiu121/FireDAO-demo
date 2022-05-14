@@ -1,0 +1,1 @@
+import{i as e}from"./is-typedarray.90714367.js";var t=e.strict,r=function(e){if(t(e)){var r=Buffer.from(e.buffer);return e.byteLength!==e.buffer.byteLength&&(r=r.slice(e.byteOffset,e.byteOffset+e.byteLength)),r}return Buffer.from(e)};export{r as t};

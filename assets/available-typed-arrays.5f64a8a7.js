@@ -1,0 +1,1 @@
+import{c as r}from"./react.49c1050d.js";var a=["BigInt64Array","BigUint64Array","Float32Array","Float64Array","Int16Array","Int32Array","Int8Array","Uint16Array","Uint32Array","Uint8Array","Uint8ClampedArray"],t="undefined"==typeof globalThis?r:globalThis,n=function(){for(var r=[],n=0;n<a.length;n++)"function"==typeof t[a[n]]&&(r[r.length]=a[n]);return r};export{n as a};

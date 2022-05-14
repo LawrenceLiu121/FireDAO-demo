@@ -1,0 +1,1 @@
+var t=Object.prototype.hasOwnProperty,r=Object.prototype.toString,o=function(o,e,a){if("[object Function]"!==r.call(e))throw new TypeError("iterator must be a function");var n=o.length;if(n===+n)for(var c=0;c<n;c++)e.call(a,o[c],c,o);else for(var l in o)t.call(o,l)&&e.call(a,o[l],l,o)};export{o as f};

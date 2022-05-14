@@ -1,0 +1,1 @@
+import{s as t}from"./has-tostringtag.0722ba29.js";var r=String.prototype.valueOf,o=Object.prototype.toString,e=t(),n=function(t){return"string"==typeof t||"object"==typeof t&&(e?function(t){try{return r.call(t),!0}catch(o){return!1}}(t):"[object String]"===o.call(t))};export{n as i};

@@ -1,0 +1,1 @@
+import{c as t}from"./call-bind.4cbdc4a9.js";import{s as o}from"./has-tostringtag.0722ba29.js";var r=t,n=r("Boolean.prototype.toString"),a=r("Object.prototype.toString"),e=o(),c=function(t){return"boolean"==typeof t||null!==t&&"object"==typeof t&&(e&&Symbol.toStringTag in t?function(t){try{return n(t),!0}catch(o){return!1}}(t):"[object Boolean]"===a(t))};export{c as i};
